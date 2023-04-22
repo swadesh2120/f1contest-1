@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&family=Poppins:wght@300;400;600;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat';
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background-color: #FCAF02;
+    font-family: 'Montserrat';
+    position: sticky;
+    top: 0;
+}
+
+
+nav > .right{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+
+.banner{
+    display: flex;
+    margin: 50px;
+    color: white;
+    gap: 100px;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.banner > .left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.banner > .left > h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.login{
+    width: fit-content;
+    padding: 10px 60px;
+    border-radius: 50px;
+    background-color: #FCAF02;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.banner .right > img{
+    width: 450px;
+}
+
+.contact-us{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.contact-us input{
+    background-color: black;
+    border: 1px solid #FCAF02;
+    outline: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: #FCAF02;
+    outline: blue;
+}
+
+.contact-us > .divide{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact-us > .divide input{
+    width: 45%;
+}
+
+.contact-us input:focus{
+    outline: none;
+}
+
+.contact-us > h2{
+    color: #FCAF02;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.contact-us button{
+    align-self: center;
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+
+.contact-us input::placeholder {
+    color: #FCAF02;
+    font-weight: 400;
+    /* opacity: 1; */
+  }
+
+  .table{
+    /* border: 2px solid red; */
+    color: #FCAF02;
+    margin: 50px;
+  }
+
+   table, th,td {
+    border: 1px solid #FCAF02;
+    padding: 10px 20px;
+    border-collapse: collapse;
+    line-height: 44px;
+  }
+ 
+
